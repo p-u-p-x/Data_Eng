@@ -1,0 +1,18 @@
+import csv
+
+rows = [
+    ["Customer_ID", "Customer_Name", "Age", "City", "Email", "Salary"],
+    ["101", "hamia khalil", "22", "Lahore", "hamia@gmail.com", "75000"],
+    ["102", "talha awan", "25", "lahore", "talha@yahoo.com", "85000"],
+    ["103", "", "30", "Karachi", "ali@domain.com", "90000"],
+    ["104", "sara khan", "-5", "Islamabad", "sara@gmail.com", "60000"],
+    ["105", "USMAN ALI", "28", "Lahor", "usman.ali@gmail.com", "-45000"],
+    ["102", "talha awan", "25", "lahore", "talha@yahoo.com", "85000"],
+    ["106", "zainab bibi", "", "Rawalpindi", "invalid-email-format", "55000"],
+    ["107", "bilal ahmed", "35", "KARACHI", "", "110000"],
+    ["108", "hassan raza", "-29", "Peshawar", "hassan@gmail.com", "65000"],
+    ["109", "Ayesha Tariq", "24", "Multan", "ayesha@gmail.com", "70000"],
+]
+
+with open("customers.csv", "w", newline="", encoding="utf-8") as f:
+    csv.writer(f).writerows(rows)

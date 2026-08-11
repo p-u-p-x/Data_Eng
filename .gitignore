@@ -1,0 +1,27 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# KNIME
+*.log
+*.tmp
+
+# Environment
+.env
+venv/
+.venv/
+
+# Large files (if any)
+*.dmg
+*.zip

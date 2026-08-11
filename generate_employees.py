@@ -1,0 +1,14 @@
+import csv
+
+rows = [
+    ["Employee_ID", "Employee_Name", "Department", "Years_Experience", "Email", "Monthly_Salary"],
+    ["E01", "ahmed raza", "Engineering", "3", "ahmed@company.com", "120000"],
+    ["E02", "SANA TARIQ", "Marketing", "5", "sana@company.com", "95000"],
+    ["E03", "", "Sales", "2", "unknown@company.com", "80000"],
+    ["E04", "bilal khan", "-1", "engineering", "bilal@company.com", "-30000"],
+    ["E02", "SANA TARIQ", "Marketing", "5", "sana@company.com", "95000"],
+    ["E05", "hina malik", "8", "Finance", "", "150000"],
+]
+
+with open("employees.csv", "w", newline="", encoding="utf-8") as f:
+    csv.writer(f).writerows(rows)

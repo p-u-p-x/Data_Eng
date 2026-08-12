@@ -1,0 +1,7 @@
+"Customer_ID","full_name","Age","City","Email","monthly_salary_pkr"
+101,"Hamia Khalil",22.0,"Lahore","hamia@gmail.com",75000
+102,"Talha Awan",25.0,"lahore","talha@yahoo.com",85000
+103,"Unknown",30.0,"Karachi","ali@domain.com",90000
+106,"Zainab Bibi",17.22222222222222,"Rawalpindi","invalid-email-format",55000
+107,"Bilal Ahmed",35.0,"KARACHI","Not Available",110000
+109,"Ayesha Tariq",24.0,"Multan","ayesha@gmail.com",70000

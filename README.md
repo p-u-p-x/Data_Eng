@@ -26,7 +26,7 @@ An end-to-end ETL pipeline built in KNIME Analytics Platform for cleaning and lo
 - Python (for data generation)
 
 ## Screenshots
-Screenshots of each node configuration are included in the repository.
+Screenshots of each node configuration are included in the word doc.
 
 ## Author
 Sajeela Noor
